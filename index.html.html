@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width,initial-scale=1" /> 
+          <title>bac_info_2k26</title>
+          <link rel="stylesheet" href="style.css">
+          <script src="jss.js"> </script>
+ </head> 
+ <body> 
+    <!-- Background canvases --> 
+    <canvas id="matrix"></canvas>
+    <canvas id="circuit"></canvas>
+    <canvas id="particles"></canvas>
+        <!-- Quiz UI -->
+        <div class="container">
+        <div class="card" role="group" aria-label="quiz">
+       
+                 <h1>who are the goats  ? </h1> 
+                 <div class="options" role="list"> 
+                   <table> <tr>  
+                    <button role="listitem" onclick="checkAnswer('math')">Mathematica</button> 
+                    <button role="listitem" onclick="checkAnswer('lettres')">Lettres </button>
+                    <button role="listitem" onclick="checkAnswer('lettres')">Sciences </button>
+                    <button role="listitem" onclick="checkAnswer('eco')">Eco</button> 
+                    <button role="listitem" onclick="checkAnswer('informatique')">Informatica</button></div></tr></table>
+                    <div id="message" class="message" aria-live="polite"></div> </div> </div> 
+
+ </script> 
+ </body>
+</html>
